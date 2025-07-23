@@ -10,7 +10,7 @@ public class Sum {
         int b = sc.nextInt();
      
         int sum = a+b;
-        System.out.println(sum);
+        System.out.println("sum: " +  sum);
         sc.close();
 
 
