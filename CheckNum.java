@@ -19,7 +19,7 @@ public class CheckNum {
         }
 
     
-
+      sc.close();
     }
     
 }
