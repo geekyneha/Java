@@ -90,12 +90,12 @@ public class Patterns {
 
 
         // Pattern 6
-        // Floyd's Triangle
+        // Half Pyramid with Numbers
         // 1
         // 1 2
         // 1 2 3
         // 1 2 3 4          
-    System.out.println("Pattern 6: Floyd's Triangle");
+    System.out.println("Pattern 6: Half Pyramid with Numbers ");
      for(int i = 0 ; i < n ; i++){
         for(int j = 0 ; j < i + 1; j++){
             System.out.print(j+1 + " ");
@@ -105,12 +105,12 @@ public class Patterns {
 
 
         // Pattern 7
-        // Inverted Floyd's Triangle
+        // Inverted Triangle
         // 1 2 3 4
         // 1 2 3
         // 1 2
         // 1
-    System.out.println("Pattern 7: Inverted Floyd's Triangle");
+    System.out.println("Pattern 7: Inverted Half Pyramid with Numbers");
      for(int i = 0 ; i < n  ; i++){
         for(int j = 0 ;  j < n - i ; j++){
              System.out.print( j + 1 + " ");
