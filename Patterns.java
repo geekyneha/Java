@@ -61,13 +61,32 @@ public class Patterns {
         // *
 
     System.out.println("Pattern 4: Inverted Half Pyramid");
-    
+
       for (int i = 0 ; i < n ; i++){
         for (int j = 0; j < n-i ; j++){
             System.out.print("* ");
         }
         System.out.println();
     }
+
+        // Pattern 5
+        // Inverted Half Pyramid with Spaces
+        //       *
+        //     * *
+        //   * * *
+        // * * * *      
+
+    System.out.println("Pattern 5: Inverted Half Pyramid with Spaces(rotated 180 degrees)");
+
+     for(int i = 0 ; i < n ; i++){
+        for(int j = 0; j < n - i+1; j++){
+            System.out.print("  ");
+        }
+        for(int j= 0 ; j < i+1 ; j++){
+            System.out.print("* ");
+        } 
+        System.out.println();
+     }
 
     }
 
