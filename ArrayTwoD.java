@@ -30,6 +30,8 @@ public class ArrayTwoD {
             }
             
         }
+
+        sc.close();
      }
 
 }
