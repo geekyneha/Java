@@ -1,6 +1,9 @@
 import java.util.*;
 public class Strings {
 
+
+    // Strings are non-primitive data types in Java.
+    // They are immutable, meaning once created, they cannot be changed.
     public static void main(String args[]){
 
 
@@ -19,5 +22,5 @@ public class Strings {
         System.out.println("Substring from index 2 to 5: " + str.substring(2, 5));
 
     }
-        
+
 }
